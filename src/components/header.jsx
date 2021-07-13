@@ -1,5 +1,5 @@
 import Typewriter from "typewriter-effect"
-import { useState } from "react";
+
  
 export const Header = (props) => {
 
@@ -18,7 +18,7 @@ export const Header = (props) => {
                   <h2><Typewriter options = {{
                     autoStart : true,
                     delay: 40,
-                    strings : [props.data.title2],
+                    strings : [props.data ? props.data.title2 : 'Loading'],
                     loop: true
                   }}
                  
