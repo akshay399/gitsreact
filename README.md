@@ -1,4 +1,4 @@
-#GITS landing page
+# GITS landing page
 
 
 
