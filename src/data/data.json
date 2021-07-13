@@ -1,6 +1,8 @@
 {
   "Header": {
-    "title": "group of IT students",
+    "title1": "group of",
+    "title2": "Information technology",
+    "title3": "STUDENTS",
     "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sed commodo nibh ante facilisis bibendum."
   },
   "About": {

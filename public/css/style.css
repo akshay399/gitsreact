@@ -578,3 +578,10 @@ color: #777;
 	margin: 50px 0;
 }
 }
+
+#header h2 {
+	color: #fff;
+	margin-top: 10px;
+	margin-bottom: 15px;
+	padding-bottom: 15px;
+}
