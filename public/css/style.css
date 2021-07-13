@@ -2,20 +2,22 @@ body, html {
 	font-family: 'Open Sans', sans-serif;
 	text-rendering: optimizeLegibility !important;
 	-webkit-font-smoothing: antialiased !important;
-	color: #777;
+	color:#777;
 	font-weight: 400;
 	width: 100% !important;
 	height: 100% !important;
+	
 }
 h2, h3, h4 {
 	font-family: 'Raleway', sans-serif;
 }
 h2 {
+	
 	text-transform: uppercase;
 	margin: 0 0 20px 0;
 	font-weight: 800;
 	font-size: 36px;
-	color: #333;
+	
 }
 h3 {
 	font-size: 20px;
@@ -150,6 +152,7 @@ hr {
 }
 .section-title p {
 	font-size: 18px;
+	
 }
 .btn-custom {
 	font-family: 'Raleway', sans-serif;
@@ -186,7 +189,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	display: table;
 	width: 100%;
 	padding: 0;
-	background: url(../img/intro-bg.jpg) center center no-repeat;
+	background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
 	background-color: #e5e5e5;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -259,7 +262,7 @@ header .intro-text {
 	height: 4px;
 	width: 60px;
 	bottom: 0;
-	left: 0;
+	left: 50%;
 }
 #about .about-text li {
 	margin-bottom: 6px;
@@ -438,7 +441,7 @@ header .intro-text {
 	color: rgba(255,255,255,.75);
 }
 #contact .section-title {
-	margin-bottom: 40px;
+	margin-bottom: 0px;
 }
 #contact .section-title p {
 	font-size: 16px;
@@ -448,15 +451,16 @@ header .intro-text {
 	margin-top: 10px;
 	margin-bottom: 15px;
 	padding-bottom: 15px;
+	text-align: center;
 }
 #contact .section-title h2::after {
 	position: absolute;
 	content: "";
-	background: rgba(255,255,255,.3);
+	background: rgba(255, 255, 255, 0.3);
 	height: 4px;
 	width: 60px;
 	bottom: 0;
-	left: 30px;
+	left: 50%;
 }
 #contact h3 {
 	color: #fff;
@@ -470,7 +474,7 @@ header .intro-text {
 }
 #contact .text-danger {
 	color: #cc0033;
-	text-align: left;
+	text-align: center;
 }
 #contact .btn-custom {
 	margin: 30px 0;
@@ -485,7 +489,7 @@ label {
 	font-size: 12px;
 	font-weight: 400;
 	font-family: 'Open Sans', sans-serif;
-	float: left;
+	float: center;
 }
 #contact .form-control {
 	display: block;
@@ -534,7 +538,7 @@ color: #777;
 	margin-right: 10px;
 }
 #contact .social {
-	border-top: 1px solid rgba(255,255,255,0.15);
+	/* border-top: 1px solid rgba(255,255,255,0.15); */
 	padding-top: 50px;
 	margin-top: 50px;
 	text-align: center;

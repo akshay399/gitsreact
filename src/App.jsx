@@ -17,20 +17,22 @@ export const scroll = new SmoothScroll('a[href*="#"]', {
 });
 
 const App = () => {
+  new Darkmode().showWidget();
   const [landingPageData, setLandingPageData] = useState({});
   useEffect(() => {
     setLandingPageData(JsonData);
   }, []);
-  new Darkmode().showWidget();
+ 
   return (
     <div>
+      
       <Navigation />
       <Header data={landingPageData.Header} />
-      {/* <Features data={landingPageData.Features} /> */}
+    
       <About data={landingPageData.About} />
-      {/* <Services data={landingPageData.Services} /> */}
+     
       <Gallery />
-      {/* <Testimonials data={landingPageData.Testimonials} /> */}
+    
       <Team data={landingPageData.Team} />
       <Contact data={landingPageData.Contact} />
     </div>

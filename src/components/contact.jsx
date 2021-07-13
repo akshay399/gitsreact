@@ -31,15 +31,13 @@ export const Contact = (props) => {
       );
   };
   return (
-    <div>
-      <div id="contact">
+    
+      <div id="contact" className='text-center'>
         <div className="container">
-          <div className="col-sm-12">
-            <div className="row">
+         
               <div className="section-title">
                 <h2>Get In Touch</h2>
-              </div>
-            </div>
+             
           </div>
           <div className="col-sm-12">
             <div className="row">
@@ -66,6 +64,6 @@ export const Contact = (props) => {
           </div>
         </div>
       </div>
-    </div>
+    
   );
 };
