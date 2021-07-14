@@ -15,12 +15,13 @@ h4 {
 }
 h2 {
   text-transform: uppercase;
-  margin: 0 0 20px 0;
+  margin: 10px 0 0 0;
   font-weight: 800;
   font-size: 36px;
 }
 h3 {
   font-size: 20px;
+
   font-weight: 600;
   color: #333;
 }
@@ -627,6 +628,7 @@ label {
   padding-bottom: 15px;
 }
 
-/* .row {
-  margin-top: -10px;
-} */
+.row {
+  position: relative;
+  margin-top: -100px;
+}
