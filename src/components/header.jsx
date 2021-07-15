@@ -12,9 +12,9 @@ export const Header = (props) => {
           <div className='container'>
             <div className='row'>
               <div className='col-md-8 col-md-offset-2 intro-text'>
-                <h2>
+                <h3>
                   {props.data ? props.data.title1 : 'Loading'}
-                  </h2>
+                  </h3>
                   <h2><Typewriter options = {{
                     autoStart : true,
                     delay: 40,
@@ -24,7 +24,7 @@ export const Header = (props) => {
                  
                  /></h2>
                 
-                 <h2>{props.data ? props.data.title3 : 'Loading'}</h2>
+                 <h3>{props.data ? props.data.title3 : 'Loading'}</h3>
                   <span></span>
                 
                

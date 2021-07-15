@@ -584,8 +584,15 @@ color: #777;
 }
 
 #header h2 {
-	color: #fff;
+	color: #0d1823;
 	margin-top: 10px;
-	margin-bottom: 15px;
+	margin-bottom: 10px;
+	padding-bottom: 15px;
+}
+
+#header h3 {
+	color: #0d1823;
+	margin-top: 10px;
+	margin-bottom: 10px;
 	padding-bottom: 15px;
 }
