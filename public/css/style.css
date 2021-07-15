@@ -3,7 +3,7 @@ html {
   font-family: "Open Sans", sans-serif;
   text-rendering: optimizeLegibility !important;
   -webkit-font-smoothing: antialiased !important;
-  color: #777;
+  color: #000000;
   font-weight: 400;
   width: 100% !important;
   height: 100% !important;
@@ -15,7 +15,7 @@ h4 {
 }
 h2 {
   text-transform: uppercase;
-  margin: 10px 0 0 0;
+  margin: 0 0 20px 0;
   font-weight: 800;
   font-size: 36px;
 }
@@ -84,7 +84,7 @@ hr {
   font-family: "Raleway", sans-serif;
   font-size: 24px;
   font-weight: 700;
-  color: #333;
+  color: #000000;
   text-transform: uppercase;
 }
 #menu.navbar-default .navbar-nav > li > a {
@@ -208,8 +208,8 @@ a:focus,
   display: table;
   width: 100%;
   padding: 0;
-  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
-  background-color: #e5e5e5;
+  background-color: #000000;
+  background-image: linear-gradient(315deg, #000000 0%, #414141 74%);
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -461,11 +461,12 @@ header .intro-text {
 /* Contact Section */
 #contact {
   padding: 100px 0 60px 0;
-  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+  background-color: #000000;
+  background-image: linear-gradient(315deg, #000000 0%, #414141 74%);
   color: rgba(255, 255, 255, 0.75);
 }
 #contact .section-title {
-  margin-bottom: 0px;
+  margin-bottom: -60px;
 }
 #contact .section-title p {
   font-size: 16px;
@@ -628,7 +629,37 @@ label {
   padding-bottom: 15px;
 }
 
-.row {
+.dist {
   position: relative;
   margin-top: -100px;
+}
+
+.glow {
+  /* font-size: 80px; */
+  color: #fff;
+  text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+/* #6372ff  #5ca9fb */
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 2px #fff, 0 0 5px #fff, 0 0 7px #6372ff, 0 0 10px #6372ff,
+      0 0 12px #6372ff, 0 0 15px #6372ff, 0 0 17px #6372ff;
+  }
+  to {
+    text-shadow: 0 0 5px #fff, 0 0 7px #5ca9fb, 0 0 10px #5ca9fb,
+      0 0 12px #5ca9fb, 0 0 15px #5ca9fb, 0 0 17px #5ca9fb, 0 0 20px #5ca9fb;
+  }
+}
+
+.textGradient {
+  /* font-size: 72px; */
+  background: linear-gradient(to right, #6372ff 10%, #5ca9fb 100%);
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
