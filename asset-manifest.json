@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/akshay399/gitsreact/static/css/main.6dea0f05.chunk.css",
+    "main.js": "/akshay399/gitsreact/static/js/main.2b62842b.chunk.js",
+    "main.js.map": "/akshay399/gitsreact/static/js/main.2b62842b.chunk.js.map",
+    "runtime-main.js": "/akshay399/gitsreact/static/js/runtime-main.d2a2075f.js",
+    "runtime-main.js.map": "/akshay399/gitsreact/static/js/runtime-main.d2a2075f.js.map",
+    "static/js/2.41b9ed2e.chunk.js": "/akshay399/gitsreact/static/js/2.41b9ed2e.chunk.js",
+    "static/js/2.41b9ed2e.chunk.js.map": "/akshay399/gitsreact/static/js/2.41b9ed2e.chunk.js.map",
+    "index.html": "/akshay399/gitsreact/index.html",
+    "static/css/main.6dea0f05.chunk.css.map": "/akshay399/gitsreact/static/css/main.6dea0f05.chunk.css.map",
+    "static/js/2.41b9ed2e.chunk.js.LICENSE.txt": "/akshay399/gitsreact/static/js/2.41b9ed2e.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d2a2075f.js",
+    "static/js/2.41b9ed2e.chunk.js",
+    "static/css/main.6dea0f05.chunk.css",
+    "static/js/main.2b62842b.chunk.js"
+  ]
+}
